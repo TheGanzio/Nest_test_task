@@ -7,6 +7,20 @@ make 2 POST requests to http://localhost:3000/doctors/prefill and http://localho
 
 -----------------------------------------------------------------------------------------------------
 
+To create doctor-appointment make POST request to http://localhost:3000/doctor-appointment
+Body example:
+{
+    "doctorId": "62e58716e46c9ed9307dee8e",
+    "userId": "62e5871ce46c9ed9307dee92",
+    "date_time": "30.07.2022 21:00"
+}
+
+-----------------------------------------------------------------------------------------------------
+
+To Get all doctor-appointments make GET request to http://localhost:3000/doctor-appointment
+
+-----------------------------------------------------------------------------------------------------
+
 To Get all doctors make GET request to http://localhost:3000/doctors
 
 -----------------------------------------------------------------------------------------------------
